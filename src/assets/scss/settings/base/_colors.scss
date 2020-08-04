@@ -3,26 +3,26 @@
 // The color palette
 $palette: (
 	light: (
-		1: #ECEDED,
-		2: #9CA9B3,
-		3: #717D86
+		1: #FFFFFF,
+		2: #d6d6d6,
+		3: #adadad
 	),
 	dark: (
-		1: #151719,
-		2: #25282C,
-		3: #33363A
+		1: #121212,
+		2: #262626,
+		3: #3b3b3b
 	),
 	primary: (
-		1: #6163FF,
-		2: #ACADFF,
-		3: #5658DD,
-		4: #E9E9FF
+		1: #90CAF9,
+		2: #c3fdff,
+		3: #5d99c6,
+		4: #FFFFFF
  	),
 	secondary: (
-		1: #24E5AF,
-		2: #73EFCC,
-		3: #1CB68B,
-		4: #D2F9EE
+		1: #f48fb1,
+		2: #ffc1e3,
+		3: #bf5f82,
+		4: #FFFFFF
 	),
 	alert: (
 		error: #FF6171,
@@ -38,7 +38,7 @@ $color: (
 	high-contrast: 			get-color(light, 1),
 	mid-contrast: 			get-color(light, 2),
 	low-contrast: 			get-color(light, 3),
-	primary:				get-color(primary, 3),
+	primary:				get-color(primary, 1),
 	secondary:				get-color(secondary, 1),
 	error:					get-color(alert, error),
 	warning:				get-color(alert, warning),
@@ -53,7 +53,7 @@ $color: (
 
 // Borders and dividers: color
 $border--color: (
-	divider:			get-color(dark, 2),
+	divider:			get-color(dark, 3),
 	divider-inverse:	get-color(light, 1)
 );
 
