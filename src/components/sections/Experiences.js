@@ -11,7 +11,7 @@ const defaultProps = {
   ...SectionSplitProps.defaults
 }
 
-const ExperiencesSplit = ({
+const Experiences = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -102,7 +102,7 @@ const ExperiencesSplit = ({
   );
 }
 
-ExperiencesSplit.propTypes = propTypes;
-ExperiencesSplit.defaultProps = defaultProps;
+Experiences.propTypes = propTypes;
+Experiences.defaultProps = defaultProps;
 
-export default ExperiencesSplit;
+export default Experiences;

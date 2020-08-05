@@ -2,7 +2,7 @@ import React from 'react';
 // import sections
 import Welcome from '../components/sections/Welcome';
 import SkillsTiles from '../components/sections/SkillsTiles';
-import ExperiencesSplit from '../components/sections/ExperiencesSplit';
+import Experiences from '../components/sections/Experiences';
 import Testimonial from '../components/sections/Testimonial';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Welcome />
       <SkillsTiles topDivider />
-      <ExperiencesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <Experiences invertMobile topDivider imageFill />
       <Testimonial topDivider />
     </>
   );
