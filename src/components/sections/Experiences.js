@@ -71,12 +71,14 @@ const Experiences = ({
                 <h3 className="mt-0 mb-12">
                   Intern <span className="text-color-secondary">@ Advanced Communication Technology & Solutions </span>
                 </h3>
-                <p className="m-0">
-                  • Programmed bash script and packaged dependencies into Docker images to perform offline server deployment. <br />
-                  • Researched into neural networks, and developed a fullstack web app that trains and infers text from hand-written words. <br />
-                  &emsp; &#9702; Resources utilized include TensorFlow, Flask, HTML, CSS, JavaScript, ELK, MetricBeat. <br />
-                  • Trained and taught around 20 coworkers in a workshop on Introduction to AI and Neural Networks.
-                </p>
+                <ul className="m-0">
+                  <li>Programmed bash script and packaged dependencies into Docker images to perform offline server deployment.</li>
+                  <li>Researched into neural networks, and developed a fullstack web app that trains and infers text from hand-written words.</li>
+                  <ul>
+                    <li>Resources utilized include TensorFlow, Flask, HTML, CSS, JavaScript, ELK, MetricBeat.</li>
+                  </ul>
+                  <li>Trained and taught around 20 coworkers in a workshop on Introduction to AI and Neural Networks.</li>
+                </ul>
               </div>
             </div>
 
@@ -88,10 +90,10 @@ const Experiences = ({
                 <h3 className="mt-0 mb-12">
                   Peer Tutor & Reader <span className="text-color-secondary">@ University of California, Irvine</span>
                 </h3>
-                <p className="m-0">
-                  • Tutored in-class labs, and graded homework for around 40 students per quarter on “Intermediate Programming in Python”. <br />
-                  • Topics taught included regular expressions, trees, linked lists, inheritance, and function complexity.
-                </p>
+                <ul className="m-0">
+                  <li>Tutored in-class labs, and graded homework for around 40 students per quarter on “Intermediate Programming in Python”.</li>
+                  <li>Topics taught included regular expressions, trees, linked lists, inheritance, and function complexity.</li>
+                </ul>
               </div>
             </div>
 
