@@ -1,7 +1,7 @@
 import React from 'react';
 // import sections
-import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
+import Welcome from '../components/sections/Welcome';
+import SkillsTiles from '../components/sections/SkillsTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
@@ -10,8 +10,8 @@ const Home = () => {
 
   return (
     <>
-      <Hero />
-      <FeaturesTiles />
+      <Welcome />
+      <SkillsTiles topDivider />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
       <Cta split />
