@@ -64,7 +64,7 @@ const Experiences = ({
           <div className={splitClasses}>
 
             <div className="split-item">
-              <div className="center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+              <div className="reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   July 2019 – August 2019
                 </div>
@@ -74,7 +74,7 @@ const Experiences = ({
                 <ul className="m-0">
                   <li>Programmed bash script and packaged dependencies into Docker images to perform offline server deployment.</li>
                   <li>Researched into neural networks, and developed a fullstack web app that trains and infers text from hand-written words.</li>
-                  <ul>
+                  <ul type="circle">
                     <li>Resources utilized include TensorFlow, Flask, HTML, CSS, JavaScript, ELK, MetricBeat.</li>
                   </ul>
                   <li>Trained and taught around 20 coworkers in a workshop on Introduction to AI and Neural Networks.</li>
@@ -83,7 +83,7 @@ const Experiences = ({
             </div>
 
             <div className="split-item">
-              <div className="center-content-mobile reveal-from-leftZ" data-reveal-container=".split-item">
+              <div className="reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   March 2018 – June 2019
                 </div>
@@ -100,7 +100,7 @@ const Experiences = ({
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 
