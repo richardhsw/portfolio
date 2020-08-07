@@ -122,7 +122,7 @@ const Header = ({
                       <Link smooth to="#experiences" onClick={closeMenu}>Experiences</Link>
                     </li>
                     <li>
-                      <Link smooth to="#0" onClick={closeMenu}>Projects</Link>
+                      <Link smooth to="#projects" onClick={closeMenu}>Projects</Link>
                     </li>
                   </ul>
                   {!hideSignin &&

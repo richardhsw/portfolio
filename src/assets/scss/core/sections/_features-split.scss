@@ -8,6 +8,26 @@
 	.section-header {
 		padding-bottom: $features-split-header--padding__mobile;
 	}
+
+	.nav-tabs {
+		margin-bottom: 15px;
+
+		> a {
+			@include media( '<=medium') {
+				padding-right: 5px;
+				padding-left: 5px;
+			}
+
+			&:hover{
+				background-color: get-color(secondary, 3);
+			}
+		}
+
+		.active {
+			background-color: color(secondary);
+			color: color("high-contrast");
+		}
+	}
 }
 
 @include media( '>medium' ) {
@@ -21,6 +41,21 @@
 
 		.section-header {
 			padding-bottom: $features-split-header--padding__desktop;
+		}
+
+		.nav-tabs {
+			margin-bottom: 20px;
+
+			> a {
+				&:hover{
+					background-color: get-color(secondary, 3);
+				}
+			}
+
+			.active {
+				background-color: color(secondary);
+				color: color("high-contrast");
+			}
 		}
 	}
 }

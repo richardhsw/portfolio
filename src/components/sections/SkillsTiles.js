@@ -53,7 +53,7 @@ const SkillsTiles = ({
       {...props}
       className={outerClasses}
     >
-      <div id="skills" className="container">
+      <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>

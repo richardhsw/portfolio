@@ -56,7 +56,7 @@ const Experiences = ({
   return (
     <section
       {...props}
-      className={outerClasses} id="experiences"
+      className={outerClasses}
     >
       <div className="container">
         <div className={innerClasses}>
@@ -69,7 +69,7 @@ const Experiences = ({
                   July 2019 – August 2019
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Intern <span className="text-color-secondary">@ Advanced Communication Technology & Solutions </span>
+                  Intern <span className="text-color-secondary">@ Advanced Communication Technology &amp; Solutions </span>
                 </h3>
                 <ul className="m-0">
                   <li>Programmed bash script and packaged dependencies into Docker images to perform offline server deployment.</li>
@@ -88,7 +88,7 @@ const Experiences = ({
                   March 2018 – June 2019
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Peer Tutor & Reader <span className="text-color-secondary">@ University of California, Irvine</span>
+                  Peer Tutor &amp; Reader <span className="text-color-secondary">@ University of California, Irvine</span>
                 </h3>
                 <ul className="m-0">
                   <li>Tutored in-class labs, and graded homework for around 40 students per quarter on “Intermediate Programming in Python”.</li>

@@ -3,18 +3,16 @@ import React from 'react';
 import Welcome from '../components/sections/Welcome';
 import SkillsTiles from '../components/sections/SkillsTiles';
 import Experiences from '../components/sections/Experiences';
-import ProjectsSplit from '../components/sections/ProjectsSplit';
-import Testimonial from '../components/sections/Testimonial';
+import ProjectsTabs from '../components/sections/ProjectsTabs';
 
 const Home = () => {
 
   return (
     <>
       <Welcome />
-      <SkillsTiles topDivider />
-      <Experiences invertMobile topDivider imageFill />
-      <ProjectsSplit invertMobile topDivider imageFill />
-      <Testimonial topDivider />
+      <SkillsTiles id="skills" topDivider />
+      <Experiences id="experiences" invertMobile topDivider imageFill />
+      <ProjectsTabs id="projects" invertMobile topDivider imageFill />
     </>
   );
 }

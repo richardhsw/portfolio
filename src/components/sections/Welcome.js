@@ -55,7 +55,7 @@ const Welcome = ({
               </span>
             </h1>
             <div className="subheader container-xs">
-              <p className="description text-color-low m-0 mb-32 reveal-from-bottom" data-reveal-delay="1400">
+              <p className="description text-color-low mb-32 reveal-from-bottom" data-reveal-delay="1400">
                 I am a Software Engineer in Southern California with all-round experience in front-end,
                 back-end, and machine learning.
               </p>
