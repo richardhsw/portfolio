@@ -58,19 +58,19 @@ const SkillsTiles = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
-            <LogoTile imageSrc={require('./../../assets/images/logos/python.svg')} title="Python" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/java.svg')} title="Java" delay="200" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/csharp.svg')} title="C#" delay="300" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/cpp.svg')} title="C++" delay="400" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/react.svg')} title="React Native" delay="500" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/react.svg')} title="React" delay="600" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/javascript.svg')} title="JavaScript" delay="700" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/html.svg')} title="HTML" delay="800" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/css.svg')} title="CSS" delay="900" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/swift.svg')} title="Swift" delay="1000" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/visualbasic.svg')} title="VisualBasic" delay="1100" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/tux.svg')} title="Unix" delay="1200" />
-            <LogoTile imageSrc={require('./../../assets/images/logos/mysql.svg')} title="MySQL" delay="1300" />
+            <LogoTile imageSrc={require('assets/images/logos/python.svg')} title="Python" />
+            <LogoTile imageSrc={require('assets/images/logos/java.svg')} title="Java" delay="200" />
+            <LogoTile imageSrc={require('assets/images/logos/csharp.svg')} title="C#" delay="300" />
+            <LogoTile imageSrc={require('assets/images/logos/cpp.svg')} title="C++" delay="400" />
+            <LogoTile imageSrc={require('assets/images/logos/react.svg')} title="React Native" delay="500" />
+            <LogoTile imageSrc={require('assets/images/logos/react.svg')} title="React" delay="600" />
+            <LogoTile imageSrc={require('assets/images/logos/javascript.svg')} title="JavaScript" delay="700" />
+            <LogoTile imageSrc={require('assets/images/logos/html.svg')} title="HTML" delay="800" />
+            <LogoTile imageSrc={require('assets/images/logos/css.svg')} title="CSS" delay="900" />
+            <LogoTile imageSrc={require('assets/images/logos/swift.svg')} title="Swift" delay="1000" />
+            <LogoTile imageSrc={require('assets/images/logos/visualbasic.svg')} title="VisualBasic" delay="1100" />
+            <LogoTile imageSrc={require('assets/images/logos/tux.svg')} title="Unix" delay="1200" />
+            <LogoTile imageSrc={require('assets/images/logos/mysql.svg')} title="MySQL" delay="1300" />
 
           </div>
         </div>

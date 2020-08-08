@@ -10,14 +10,14 @@ export default function FullStack({ splitClasses, imageFill }) {
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                     <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                         React Native, JavaScript, GitFlow, JSON-Server
-                                </div>
+                    </div>
                     <h3 className="mt-0 mb-12">
                         Wander
-                                </h3>
+                    </h3>
                     <p className="m-0">
                         Worked with team members using GitFlow and React Native to build an app that allows users to meet and
                         have lunch with new interesting people every week.
-                                </p>
+                    </p>
                 </div>
                 <div className={
                     classNames(
@@ -37,14 +37,14 @@ export default function FullStack({ splitClasses, imageFill }) {
                 <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                     <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                         Xcode, Swift, Alamofire, Parse, SwiftyJSON, Spoonacular API
-                                </div>
+                    </div>
                     <h3 className="mt-0 mb-12">
                         SugoiFridge
-                                </h3>
+                    </h3>
                     <p className="m-0">
                         Developed a Swift application on Xcode that lets users record their groceries, and help suggest possible
                         recipes to make based on available ingredients.
-                                </p>
+                    </p>
                 </div>
                 <div className={
                     classNames(

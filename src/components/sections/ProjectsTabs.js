@@ -66,7 +66,7 @@ const ProjectsTabs = ({
                 <div className={innerClasses}>
                     <SectionHeader data={sectionHeader} className="center-content" />
                     <div className="text-color-high">
-                        <Tabs className="myClass" defaultActiveKey="fullstack">
+                        <Tabs defaultActiveKey="fullstack">
                             <Tab eventKey="fullstack" title="Full Stack">
                                 <FullStack splitClasses={splitClasses} imageFill={imageFill} />
                             </Tab>
