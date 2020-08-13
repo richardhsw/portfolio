@@ -66,6 +66,22 @@ const Experiences = ({
             <div className="split-item">
               <div className="reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  August 2020 - Present
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Intern <span className="text-color-secondary">@ Auri Online </span>
+                </h3>
+                <ul className="m-0">
+                  <li>Implement dynamic color schemes on React website based on subdomain.</li>
+                  <li>Designed and developed React Native app using custom functional components.</li>
+                  <li>Coordinated with other team members using GitFlow branching model.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   July 2019 – August 2019
                 </div>
                 <h3 className="mt-0 mb-12">

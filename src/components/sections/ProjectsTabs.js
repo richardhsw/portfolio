@@ -6,6 +6,8 @@ import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FullStack from './partials/FullStack';
+import MachineLearning from './partials/MachineLearning';
+import GameDev from './partials/GameDev';
 
 const propTypes = {
     ...SectionSplitProps.types
@@ -71,10 +73,10 @@ const ProjectsTabs = ({
                                 <FullStack splitClasses={splitClasses} imageFill={imageFill} />
                             </Tab>
                             <Tab eventKey="machinelearning" title="Machine Learning">
-                                <FullStack splitClasses={splitClasses} imageFill={imageFill} />
+                                <MachineLearning splitClasses={splitClasses} imageFill={imageFill} />
                             </Tab>
                             <Tab eventKey="gamedev" title="Game Dev">
-                                <FullStack splitClasses={splitClasses} imageFill={imageFill} />
+                                <GameDev splitClasses={splitClasses} imageFill={imageFill} />
                             </Tab>
                         </Tabs>
                     </div>
