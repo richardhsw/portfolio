@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
+import { HashLink as Link } from 'react-router-hash-link';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
 
 const propTypes = {
   ...SectionProps.types
@@ -61,9 +61,8 @@ const Welcome = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="1400">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get in Touch
-                  </Button>
+                  <Link className='button button-primary' smooth to="#skills">About Me</Link>
+                  <Link className='button button-primary' smooth to="#contact">Get in Touch</Link>
                 </ButtonGroup>
               </div>
             </div>
