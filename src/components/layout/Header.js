@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import smoothscroll from 'smoothscroll-polyfill';
 import Logo from './partials/Logo';
+import ResumePDF from 'assets/Resume.pdf';
+
 
 smoothscroll.polyfill();
 
@@ -124,13 +125,16 @@ const Header = ({
                     <li>
                       <Link smooth to="#projects" onClick={closeMenu}>Projects</Link>
                     </li>
+                    <li>
+                      <Link smooth to="#contact" onClick={closeMenu}>Contact me</Link>
+                    </li>
                   </ul>
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-secondary button-wide-mobile button-sm" onClick={closeMenu}>Resume</Link>
+                        <Link to={ResumePDF} target="_blank" className="button button-secondary button-wide-mobile button-sm" onClick={closeMenu}>Resume</Link>
                       </li>
                     </ul>}
                 </div>

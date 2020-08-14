@@ -4,6 +4,7 @@ import Welcome from '../components/sections/Welcome';
 import SkillsTiles from '../components/sections/SkillsTiles';
 import Experiences from '../components/sections/Experiences';
 import ProjectsTabs from '../components/sections/ProjectsTabs';
+import ContactMe from '../components/sections/ContactMe';
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
       <SkillsTiles id="skills" topDivider />
       <Experiences id="experiences" invertMobile topDivider imageFill />
       <ProjectsTabs id="projects" invertMobile topDivider imageFill />
+      <ContactMe id="contact" topDivider />
     </>
   );
 }
