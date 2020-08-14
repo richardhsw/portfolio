@@ -96,8 +96,9 @@
 	border-color: color-border(button-primary);
 
     &:hover {
-        background-color: color-bg(button-primary-hover);
-		border-color: color-border(button-primary-hover);
+			color: color(button-secondary);
+			background-color: color-bg(button-primary-hover);
+			border-color: color-border(button-primary-hover);
     }
 
 	&.is-loading {
@@ -114,8 +115,9 @@
 	border-color: color-border(button-secondary);
 
     &:hover {
-        background-color: color-bg(button-secondary-hover);
-		border-color: color-border(button-secondary-hover);
+			color: color(button-secondary);
+			background-color: color-bg(button-secondary-hover);
+			border-color: color-border(button-secondary-hover);
     }
 
 	&.is-loading {
