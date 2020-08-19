@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import Socials from './partials/Socials';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -38,11 +39,6 @@ const ContactMe = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
-    'tiles-wrap',
-    pushLeft && 'push-left'
-  );
-
   const sectionHeader = {
     title: 'Contact Me',
     paragraph: ''
@@ -56,30 +52,10 @@ const ContactMe = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div>
-            
+          <div className="container-xs center-content">
+          <p className="text-color-high mb-8">Feel free to shoot me an email or check out my past projects!</p>
+            <Socials />
           </div>
-
-          {/* <div className={tilesClasses}>
-
-            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                  </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-          </div> */}
         </div>
       </div>
     </section>

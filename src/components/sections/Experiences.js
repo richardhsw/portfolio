@@ -71,7 +71,7 @@ const Experiences = ({
                 <h3 className="mt-0 mb-12">
                   Intern <span className="text-color-secondary">@ Auri Online </span>
                 </h3>
-                <ul className="m-0">
+                <ul className="text-color-high m-0">
                   <li>Implement dynamic color schemes on React website based on subdomain.</li>
                   <li>Designed and developed React Native app using custom functional components.</li>
                   <li>Coordinated with other team members using GitFlow branching model.</li>
@@ -87,7 +87,7 @@ const Experiences = ({
                 <h3 className="mt-0 mb-12">
                   Intern <span className="text-color-secondary">@ Advanced Communication Technology &amp; Solutions </span>
                 </h3>
-                <ul className="m-0">
+                <ul className="text-color-high m-0">
                   <li>Programmed bash script and packaged dependencies into Docker images to perform offline server deployment.</li>
                   <li>Researched into neural networks, and developed a fullstack web app that trains and infers text from hand-written words.</li>
                   <ul type="circle">
@@ -106,7 +106,7 @@ const Experiences = ({
                 <h3 className="mt-0 mb-12">
                   Peer Tutor &amp; Reader <span className="text-color-secondary">@ University of California, Irvine</span>
                 </h3>
-                <ul className="m-0">
+                <ul className="text-color-high m-0">
                   <li>Tutored in-class labs, and graded homework for around 40 students per quarter on “Intermediate Programming in Python”.</li>
                   <li>Topics taught included regular expressions, trees, linked lists, inheritance, and function complexity.</li>
                 </ul>
