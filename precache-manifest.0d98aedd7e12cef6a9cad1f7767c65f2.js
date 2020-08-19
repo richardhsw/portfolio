@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b87c71834c3199803199c063c2938241",
+    "revision": "5c7f6b8291377c6e4055a211336a7c45",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "32530fc2010c3ef036ef",
+    "revision": "707bf360504f0b8329ae",
     "url": "/portfolio/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "e74bd78beb0f0a28326e",
-    "url": "/portfolio/static/css/main.893540fa.chunk.css"
+    "revision": "27c311c05542e730523f",
+    "url": "/portfolio/static/css/main.db7982d5.chunk.css"
   },
   {
-    "revision": "32530fc2010c3ef036ef",
-    "url": "/portfolio/static/js/2.161e034b.chunk.js"
+    "revision": "707bf360504f0b8329ae",
+    "url": "/portfolio/static/js/2.ace26ab3.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/portfolio/static/js/2.161e034b.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.ace26ab3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e74bd78beb0f0a28326e",
-    "url": "/portfolio/static/js/main.dec326ec.chunk.js"
+    "revision": "27c311c05542e730523f",
+    "url": "/portfolio/static/js/main.651758d1.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/features-split-image-02.3c569239.png"
   },
   {
+    "revision": "83f6710b31431efdb88252c79ee72ba2",
+    "url": "/portfolio/static/media/github.83f6710b.svg"
+  },
+  {
     "revision": "84894ab27a86cbcb7d8961f8b7680ea9",
     "url": "/portfolio/static/media/html.84894ab2.svg"
   },
@@ -72,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/javascript.08f445b6.svg"
   },
   {
+    "revision": "1e506fde4c22957fe9506687d2fdb45e",
+    "url": "/portfolio/static/media/linkedin.1e506fde.svg"
+  },
+  {
     "revision": "a22651a7085d2be3de4b0380c3554560",
     "url": "/portfolio/static/media/logo.a22651a7.svg"
+  },
+  {
+    "revision": "a4a906edea20a10ac27f38b1574f8408",
+    "url": "/portfolio/static/media/mail.a4a906ed.svg"
   },
   {
     "revision": "7c4f9c84cbbee86f327042d6264d0384",
