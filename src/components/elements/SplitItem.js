@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import Image from './Image';
 
-export default function SplitItem({ subtext, title, message, imageFill }) {
+export default function SplitItem({ subtext, title, message, imageSrc, imageFill }) {
   return (
     <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
@@ -24,8 +24,8 @@ export default function SplitItem({ subtext, title, message, imageFill }) {
                     )}
                     data-reveal-container=".split-item">
                     <Image
-                        src={require('./../../assets/images/features-split-image-02.png')}
-                        alt="Features split 02"
+                        src={imageSrc}
+                        alt={`${title} Picture`}
                         width={528}
                         height={396} />
                 </div>
