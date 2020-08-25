@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "179fbee375af085f5805190e17e0156c",
+    "revision": "f790a74e0addd790a2b4b7d93a0fdf16",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9d16295487ecb7613c4c",
+    "revision": "2067159600e05d60fd4c",
     "url": "/portfolio/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "397c783800956b220260",
+    "revision": "55dc3594603b8d302c11",
     "url": "/portfolio/static/css/main.db7982d5.chunk.css"
   },
   {
-    "revision": "9d16295487ecb7613c4c",
-    "url": "/portfolio/static/js/2.e4dbc80c.chunk.js"
+    "revision": "2067159600e05d60fd4c",
+    "url": "/portfolio/static/js/2.913da020.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/portfolio/static/js/2.e4dbc80c.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.913da020.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "397c783800956b220260",
-    "url": "/portfolio/static/js/main.6bb94ce7.chunk.js"
+    "revision": "55dc3594603b8d302c11",
+    "url": "/portfolio/static/js/main.ce76eed4.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eee6cf1a79e0dcf5660bff45266cf2a5",
     "url": "/portfolio/static/media/Where2Meet.eee6cf1a.png"
+  },
+  {
+    "revision": "b808da8da745368ce3b2e47f8b3c5d5a",
+    "url": "/portfolio/static/media/ZotSleep.b808da8d.png"
   },
   {
     "revision": "0cc4bc06de43e4d787f7858cd51f966b",
