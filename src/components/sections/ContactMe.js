@@ -54,7 +54,7 @@ const ContactMe = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className="container-xs center-content">
           <p className="text-color-high mb-8">Feel free to shoot me an email or check out my past projects!</p>
-            <Socials />
+          <Socials />
           </div>
         </div>
       </div>

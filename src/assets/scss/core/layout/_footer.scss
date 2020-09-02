@@ -23,6 +23,8 @@
 
 .footer-bottom {
 	padding-top: $footer-inner--padding-v / 2;
+	justify-content: center;
+  align-items: center; 
 }
 
 .footer-blocks {
@@ -99,7 +101,6 @@
 }
 
 .footer-social {
-
 	ul {
 		margin-right: -($footer-social--inner-padding + $footer-social--outer-padding-h);
 		margin-left: -($footer-social--inner-padding + $footer-social--outer-padding-h);
@@ -109,9 +110,11 @@
 		padding: 0 $footer-social--outer-padding-h;
 	}
 
-	a {
+	.footer-icon {
 		padding: $footer-social--inner-padding;
+	}
 
+	.footer-icon, .footer-resume {
 		svg {
 			fill: color-icon(social);
 			transition: fill .15s ease;
@@ -175,7 +178,7 @@
 
 		&.space-between {
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			align-items: center;
 		}
 	}
