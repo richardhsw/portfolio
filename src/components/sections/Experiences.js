@@ -69,12 +69,13 @@ const Experiences = ({
                   August 2020 - Present
                 </div>
                 <h3 className="mt-0 mb-12">
-                  Intern <span className="text-color-secondary">@ Auri Online </span>
+                  Software Engineer Intern <span className="text-color-secondary">@ Auri Online </span>
                 </h3>
                 <ul className="text-color-high m-0">
-                  <li>Implement dynamic color schemes on React website based on subdomain.</li>
-                  <li>Designed and developed React Native app using custom functional components.</li>
-                  <li>Coordinated with other team members using GitFlow branching model.</li>
+                  <li>Full-stack development for React and React Native application that has around 400 users.</li>
+                  <li>Developed and designed React website with dynamic color schemes and live group chats for videos using YouTube player.</li>
+                  <li>Implement backend API endpoints and Mongoose database CRUD.</li>
+                  <li>Coordinated with other team members using git and GitFlow version control model.</li>
                 </ul>
               </div>
             </div>
